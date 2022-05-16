@@ -1,0 +1,213 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #212121;
+    position: fixed;
+    z-index: 10;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.menu .menu_links {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_text {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: right;
+}
+
+.subheader .subheader_number {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 16px;
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.promo {
+    min-height: 748px;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+    padding: 151px 0 132px 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 23px;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+.advantage {
+    min-height: 900px;
+    padding: 71px 0 65px 0;
+}
+
+.label {
+    padding: 4.5px 0 4.5px 0;
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-top: 38px;
+    line-height: 38px;
+}
+
+.advantage .advantage_wrapped {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.advantage .advantage_wrapped .advantage_item {
+    width: 100%;
+    height: 142px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.advantage .advantage_wrapped .advantage_item .advantage_circle {
+    margin: 0 25px 0 0;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage .advantage_wrapped .advantage_item .advantage_descr {
+    width: 341px;
+    min-height: 142px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #202020;
+}
+
+.advantage .advantage_wrapped .advantage_item .advantage_descr span {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
